@@ -24,14 +24,19 @@ img:hover {
 }
 
 div{
-  border: 1px solid red;
-  width 50%;
+  <!-- border: 1px solid red; -->
+  <!-- width 50%;-->
 }
 
-li{
-
+button{
+  margin-right: 2%;
+  background-color: #BFBFBF;
 }
 
+header{
+  background-image: url("http://img06.deviantart.net/8cdf/i/2015/265/9/f/dark_night__bg_stock_by_mariaraute2-d9ahkm4.jpg");
+  width: 100%;
+}
 
 
 .centro{
@@ -44,22 +49,41 @@ li{
   align-content: center;
 }
 
-header{
-  background-image: url("http://eskipaper.com/images/gray-background-4.jpg");
-  width: 100%;
+#recomendaciones{
+   border: 1px solid red;
+   width 50%;
 }
+
+#contenido{
+  margin-right: 30%;
+}
+
+#sidebar{
+  margin-top: 1%;
+  float: right;
+  width: 25%;
+  border: 1px solid white;
+  color: #FFFFFF;
+  background-image: url("http://img06.deviantart.net/8cdf/i/2015/265/9/f/dark_night__bg_stock_by_mariaraute2-d9ahkm4.jpg");
+}
+
 </style>
 <title>Anti-distractor</title>
 </head>
 <body>
 
 <h1 class="centro">Facilidad de Distraccion</h1>
-<p class="centro">Ricardo Palma & Christian Moreno<p>
-<header>
+
+<header id="header">
   <button onclick="openWindow()">Google</button>
   <button onclick="openWindow2()">Facebook</button>
   <button onclick="openWindow3()">Youtube</button>
 </header>
+
+<div id="sidebar">
+  <center>Proyecto realizado por <br>Ricardo Palma y Christian Moreno <br>
+<img src="http://camarasparaespiar.com/wp-content/uploads/2015/11/comprar-ahora.png"></center>
+</div>
 
 <div id="contenido">
 
@@ -82,8 +106,7 @@ Soluciones alternativas:
 </ul>
 
 <center><img src="http://www.classicalforums.com/articles_content/images/2/brain_music.jpg" class= "imagenes"></center>
-<center><img src="http://camarasparaespiar.com/wp-content/uploads/2015/11/comprar-ahora.png"></center>
-<div>
+<div id="recomendaciones">
 Recomendaciones:
 <ul>
 <li>¿Que es esto 2002?
@@ -108,6 +131,7 @@ Recomendaciones:
 </div>
 
 </div>
+
 <!---Separador------------------------------->
 <script>
 function openWindow(){
@@ -123,4 +147,3 @@ function openWindow3(){
 </script>
 </body>
 </html>
-
