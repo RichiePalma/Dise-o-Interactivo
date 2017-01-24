@@ -1,1 +1,126 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+<style>
+body{background: #AAAAFA;
+  background-image: url("http://cdn.pcwallart.com/images/blue-gradient-background-wallpaper-4.jpg");
+}
+
+p {text-align: justify;
+font-family: sans-serif;
+}
+
+
+
+img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left,right;
+    width: 180px;
+}
+
+img:hover {
+    border: 1px solid #777;
+}
+
+div{
+  border: 1px solid red;
+  width 50%;
+}
+
+li{
+
+}
+
+
+
+.centro{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+}
+.videos{
+  align-content: center;
+}
+
+header{
+  background-image: url("http://eskipaper.com/images/gray-background-4.jpg");
+  width: 100%;
+}
+</style>
+<title>Anti-distractor</title>
+</head>
+<body>
+
+<h1 class="centro">Facilidad de Distraccion</h1>
+<p class="centro">Ricardo Palma & Christian Moreno<p>
+<header>
+  <button onclick="openWindow()">Google</button>
+  <button onclick="openWindow2()">Facebook</button>
+  <button onclick="openWindow3()">Youtube</button>
+</header>
+
+<div id="contenido">
+
+<p>Dia a dia, uno se encuentra con el inconveniente donde esta haciendo algo importante
+  o tiene algun pendiente pero este se le olvida. Ya sea por que esta muy ocupado,
+  es a largo plazo el pendiente o si es muy distraido.<br><br>
+El objetivo de este producto es dar a mostrar su uso para aquellas personas que se
+distraen con facilidad. Ya que este funciona de manera en la cual, conectada directamente
+a los nervios del cerebro, detecta directamente el momento en el que te distraes
+y te recuerda tus pendientes empezando por el más importante.
+<p/>
+
+Soluciones alternativas:
+<ul>
+  <li>Recordatorio por notificaciones.
+  <li>Por cambio de luz en la pantalla o en un dispositivo.
+  <li>Medio de una llamada.
+  <li>Curso o grupo que ayude a controlar cuanto te distraes.
+  <li>Una persona recordandote.
+</ul>
+
+<center><img src="http://www.classicalforums.com/articles_content/images/2/brain_music.jpg" class= "imagenes"></center>
+<center><img src="http://camarasparaespiar.com/wp-content/uploads/2015/11/comprar-ahora.png"></center>
+<div>
+Recomendaciones:
+<ul>
+<li>¿Que es esto 2002?
+<li>Un link para cargar otra pagina del mismo dominio
+<li>Quita el vide.
+<li>Redacción
+<li>Testimonio
+<li>Demasiados detalles
+<li>Ciencia Ficción
+<li>Música de concentración
+<li>Monetízala
+<li>Acepta donaciones
+<li>Centra imagenes
+<li>Un slogan
+<li>Mismo tipo de letra en todo para que  pareja
+<li>Más imagenes explicando
+<li>Sidebar
+<li>Pie de pagina
+<li>Pon algo llamativo
+<li>Un video de un estudio o algo con el tema
+</ul>
+</div>
+
+</div>
+<!---Separador------------------------------->
+<script>
+function openWindow(){
+  window.open("http://www.google.com");
+}
+function openWindow2(){
+  window.open("http://www.facebook.com");
+}
+function openWindow3(){
+  window.open("http://www.youtube.com");
+}
+
+</script>
+</body>
+</html>
 
